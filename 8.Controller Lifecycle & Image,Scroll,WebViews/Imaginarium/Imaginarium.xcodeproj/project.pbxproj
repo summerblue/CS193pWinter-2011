@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC7C8A311450ED6B00DC438E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7C8A301450ED6B00DC438E /* UIKit.framework */; };
+		EC7C8A331450ED6B00DC438E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7C8A321450ED6B00DC438E /* Foundation.framework */; };
+		EC7C8A351450ED6B00DC438E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7C8A341450ED6B00DC438E /* CoreGraphics.framework */; };
+		EC7C8A3B1450ED6B00DC438E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC7C8A391450ED6B00DC438E /* InfoPlist.strings */; };
+		EC7C8A3D1450ED6B00DC438E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7C8A3C1450ED6B00DC438E /* main.m */; };
+		EC7C8A411450ED6B00DC438E /* ImaginariumAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7C8A401450ED6B00DC438E /* ImaginariumAppDelegate.m */; };
+		EC7C8A441450ED6B00DC438E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7C8A421450ED6B00DC438E /* MainStoryboard_iPhone.storyboard */; };
+		EC7C8A471450ED6B00DC438E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7C8A451450ED6B00DC438E /* MainStoryboard_iPad.storyboard */; };
+		EC7C8A4A1450ED6B00DC438E /* ImaginariumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7C8A491450ED6B00DC438E /* ImaginariumViewController.m */; };
+		EC7C8A511450EE4100DC438E /* Giants.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC7C8A501450EE4100DC438E /* Giants.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC7C8A2C1450ED6B00DC438E /* Imaginarium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imaginarium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7C8A301450ED6B00DC438E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC7C8A321450ED6B00DC438E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC7C8A341450ED6B00DC438E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC7C8A381450ED6B00DC438E /* Imaginarium-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Imaginarium-Info.plist"; sourceTree = "<group>"; };
+		EC7C8A3A1450ED6B00DC438E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC7C8A3C1450ED6B00DC438E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC7C8A3E1450ED6B00DC438E /* Imaginarium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Imaginarium-Prefix.pch"; sourceTree = "<group>"; };
+		EC7C8A3F1450ED6B00DC438E /* ImaginariumAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImaginariumAppDelegate.h; sourceTree = "<group>"; };
+		EC7C8A401450ED6B00DC438E /* ImaginariumAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumAppDelegate.m; sourceTree = "<group>"; };
+		EC7C8A431450ED6B00DC438E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		EC7C8A461450ED6B00DC438E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		EC7C8A481450ED6B00DC438E /* ImaginariumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImaginariumViewController.h; sourceTree = "<group>"; };
+		EC7C8A491450ED6B00DC438E /* ImaginariumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumViewController.m; sourceTree = "<group>"; };
+		EC7C8A501450EE4100DC438E /* Giants.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Giants.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7C8A291450ED6B00DC438E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7C8A311450ED6B00DC438E /* UIKit.framework in Frameworks */,
+				EC7C8A331450ED6B00DC438E /* Foundation.framework in Frameworks */,
+				EC7C8A351450ED6B00DC438E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC7C8A211450ED6B00DC438E = {
+			isa = PBXGroup;
+			children = (
+				EC7C8A361450ED6B00DC438E /* Imaginarium */,
+				EC7C8A2F1450ED6B00DC438E /* Frameworks */,
+				EC7C8A2D1450ED6B00DC438E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC7C8A2D1450ED6B00DC438E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7C8A2C1450ED6B00DC438E /* Imaginarium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC7C8A2F1450ED6B00DC438E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC7C8A301450ED6B00DC438E /* UIKit.framework */,
+				EC7C8A321450ED6B00DC438E /* Foundation.framework */,
+				EC7C8A341450ED6B00DC438E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC7C8A361450ED6B00DC438E /* Imaginarium */ = {
+			isa = PBXGroup;
+			children = (
+				EC7C8A3F1450ED6B00DC438E /* ImaginariumAppDelegate.h */,
+				EC7C8A401450ED6B00DC438E /* ImaginariumAppDelegate.m */,
+				EC7C8A421450ED6B00DC438E /* MainStoryboard_iPhone.storyboard */,
+				EC7C8A451450ED6B00DC438E /* MainStoryboard_iPad.storyboard */,
+				EC7C8A481450ED6B00DC438E /* ImaginariumViewController.h */,
+				EC7C8A491450ED6B00DC438E /* ImaginariumViewController.m */,
+				EC7C8A501450EE4100DC438E /* Giants.jpg */,
+				EC7C8A371450ED6B00DC438E /* Supporting Files */,
+			);
+			path = Imaginarium;
+			sourceTree = "<group>";
+		};
+		EC7C8A371450ED6B00DC438E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC7C8A381450ED6B00DC438E /* Imaginarium-Info.plist */,
+				EC7C8A391450ED6B00DC438E /* InfoPlist.strings */,
+				EC7C8A3C1450ED6B00DC438E /* main.m */,
+				EC7C8A3E1450ED6B00DC438E /* Imaginarium-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7C8A2B1450ED6B00DC438E /* Imaginarium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7C8A4D1450ED6B00DC438E /* Build configuration list for PBXNativeTarget "Imaginarium" */;
+			buildPhases = (
+				EC7C8A281450ED6B00DC438E /* Sources */,
+				EC7C8A291450ED6B00DC438E /* Frameworks */,
+				EC7C8A2A1450ED6B00DC438E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Imaginarium;
+			productName = Imaginarium;
+			productReference = EC7C8A2C1450ED6B00DC438E /* Imaginarium.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7C8A231450ED6B00DC438E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Stanford University";
+			};
+			buildConfigurationList = EC7C8A261450ED6B00DC438E /* Build configuration list for PBXProject "Imaginarium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC7C8A211450ED6B00DC438E;
+			productRefGroup = EC7C8A2D1450ED6B00DC438E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7C8A2B1450ED6B00DC438E /* Imaginarium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7C8A2A1450ED6B00DC438E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7C8A3B1450ED6B00DC438E /* InfoPlist.strings in Resources */,
+				EC7C8A441450ED6B00DC438E /* MainStoryboard_iPhone.storyboard in Resources */,
+				EC7C8A471450ED6B00DC438E /* MainStoryboard_iPad.storyboard in Resources */,
+				EC7C8A511450EE4100DC438E /* Giants.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7C8A281450ED6B00DC438E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7C8A3D1450ED6B00DC438E /* main.m in Sources */,
+				EC7C8A411450ED6B00DC438E /* ImaginariumAppDelegate.m in Sources */,
+				EC7C8A4A1450ED6B00DC438E /* ImaginariumViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC7C8A391450ED6B00DC438E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7C8A3A1450ED6B00DC438E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC7C8A421450ED6B00DC438E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7C8A431450ED6B00DC438E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EC7C8A451450ED6B00DC438E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7C8A461450ED6B00DC438E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC7C8A4B1450ED6B00DC438E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC7C8A4C1450ED6B00DC438E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC7C8A4E1450ED6B00DC438E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Imaginarium/Imaginarium-Prefix.pch";
+				INFOPLIST_FILE = "Imaginarium/Imaginarium-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC7C8A4F1450ED6B00DC438E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Imaginarium/Imaginarium-Prefix.pch";
+				INFOPLIST_FILE = "Imaginarium/Imaginarium-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7C8A261450ED6B00DC438E /* Build configuration list for PBXProject "Imaginarium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7C8A4B1450ED6B00DC438E /* Debug */,
+				EC7C8A4C1450ED6B00DC438E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7C8A4D1450ED6B00DC438E /* Build configuration list for PBXNativeTarget "Imaginarium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7C8A4E1450ED6B00DC438E /* Debug */,
+				EC7C8A4F1450ED6B00DC438E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC7C8A231450ED6B00DC438E /* Project object */;
+}

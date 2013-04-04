@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11C74" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="4">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="KitchenSinkViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="mxg-xf-kYR">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <barButtonItem title="Add Label (Curl)" id="0OB-8d-jit">
+                                        <connections>
+                                            <segue destination="sMR-Wi-FCm" kind="modal" identifier="Create Label Curl" modalTransitionStyle="partialCurl" id="xih-Bi-Oxg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Default" id="ce4-3m-RMT">
+                                        <connections>
+                                            <segue destination="sMR-Wi-FCm" kind="modal" identifier="Create Label" id="iNM-0E-tVp"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Dissolve" id="5m4-4m-FGH">
+                                        <connections>
+                                            <segue destination="sMR-Wi-FCm" kind="modal" identifier="Create Label Dissolve" modalTransitionStyle="crossDissolve" id="baE-Ns-uUp"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Flip Page" id="X2z-QC-V63">
+                                        <connections>
+                                            <segue destination="sMR-Wi-FCm" kind="modal" identifier="Create Label Flip Page" modalPresentationStyle="pageSheet" modalTransitionStyle="flipHorizontal" id="TSY-Ll-ztV"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Dissolve Form" id="Zlp-R2-1pJ">
+                                        <connections>
+                                            <segue destination="sMR-Wi-FCm" kind="modal" identifier="Create Label Dissolve Form" modalPresentationStyle="formSheet" modalTransitionStyle="crossDissolve" id="9Nl-cg-e7w"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Flip Form" id="bc4-a1-Zyg">
+                                        <connections>
+                                            <segue destination="sMR-Wi-FCm" kind="modal" identifier="Create Label Flip Form" modalPresentationStyle="formSheet" modalTransitionStyle="flipHorizontal" id="qKr-dy-Buo"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" id="wg8-dL-Uie">
+                                <rect key="frame" x="0.0" y="44" width="768" height="960"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="paf-SX-GK1" appends="YES" id="8wx-QV-scA"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="kitchenSink" destination="wg8-dL-Uie" id="svO-85-tE1"/>
+                    </connections>
+                </viewController>
+                <tapGestureRecognizer id="paf-SX-GK1">
+                    <connections>
+                        <action selector="tap:" destination="2" id="kSX-0m-ZwT"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-1814" y="-1030"/>
+        </scene>
+        <scene sceneID="zMJ-gz-jGt">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9dj-a1-fBP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="sMR-Wi-FCm" customClass="AskerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c4u-P5-OWE">
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="620"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Question" lineBreakMode="tailTruncation" minimumFontSize="10" id="Vdh-3y-zMD">
+                                <rect key="frame" x="20" y="307" width="500" height="43"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="24" id="MFK-cx-ZNF">
+                                <rect key="frame" x="20" y="358" width="500" height="31"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="answerTextField" destination="MFK-cx-ZNF" id="Ctc-2J-k5q"/>
+                        <outlet property="questionLabel" destination="Vdh-3y-zMD" id="fUn-Vb-CYx"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-783" y="-910"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="AskerViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AskerViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="answerTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="questionLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="KitchenSinkViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/KitchenSinkViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="kitchenSink" candidateClass="UIView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="9Nl-cg-e7w"/>
+    </inferredMetricsTieBreakers>
+</document>

@@ -1,0 +1,27 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf230
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 To get this working, you need to do the following:\
+\
+Integrate CalculatorGraphViewController.m with your assignment 3 solution.\
+\
+Add CalculatorProgramsTableViewController.[mh] to your project.\
+\
+Add a UITableViewController to your iPad storyboard.\
+Set its class to CalculatorProgramsTableViewController.\
+Set its popover size to 200x200 (or whatever you want).\
+Set your the prototype cell of your table view to type Basic.\
+Set the Identifier of your prototype cell to "Calculator Program Description".\
+\
+Add an "Add To Favorites" button to your CalculatorGraphViewController scene.\
+Connect it to the addToFavorites: target/action method.\
+\
+Add a "Favorites" bar button item to your CalculatorGraphViewController scene.\
+Wire it up to segue to your new CalculatorProgramsTableViewController.\
+Set the segue's Identifier to "Show Favorite Graphs".\
+\
+RUN! (the program, that is, not "screaming from the room")\
+}
